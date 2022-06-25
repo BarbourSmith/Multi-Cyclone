@@ -10,47 +10,196 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Cyclone",
-            "x": 0.14351851851851852,
-            "y": 0.3446153846153846,
-            "uniqueID": 264574,
-            "projectID": "391410726",
+            "x": 0.06547619047619048,
+            "y": 0.19692307692307692,
+            "uniqueID": 501606,
+            "projectID": "499301071",
             "ioValues": [
                 {
-                    "name": "D",
-                    "ioValue": 92
+                    "name": "Dc",
+                    "ioValue": 79
+                },
+                {
+                    "name": "Hc",
+                    "ioValue": 39.5
+                },
+                {
+                    "name": "Bc",
+                    "ioValue": 19.8
+                },
+                {
+                    "name": "Sc",
+                    "ioValue": 49.4
+                },
+                {
+                    "name": "Di",
+                    "ioValue": 39.5
+                },
+                {
+                    "name": "Lc",
+                    "ioValue": 158
+                },
+                {
+                    "name": "Zc",
+                    "ioValue": 158
+                },
+                {
+                    "name": "DS",
+                    "ioValue": 19.8
                 }
             ],
             "simplify": false
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Cyclone",
-            "x": 0.16600529100529102,
-            "y": 0.6184615384615384,
-            "uniqueID": 180221,
-            "projectID": "391410726",
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.28769841269841273,
+            "y": 0.1723076923076923,
+            "uniqueID": 365824,
             "ioValues": [
                 {
-                    "name": "D",
-                    "ioValue": 42
+                    "name": "geometry2",
+                    "ioValue": "source/106159/721483Move"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "source/106159/501606GitHubMolecule"
                 }
-            ],
-            "simplify": false
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.3458994708994709,
+            "y": 0.11384615384615385,
+            "uniqueID": 589752,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/365824Difference"
+                }
+            ]
         },
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.289021164021164,
-            "y": 0.6215384615384615,
+            "x": 0.23677248677248677,
+            "y": 0.32,
+            "uniqueID": 721483,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/167606Extrude"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -140
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.12896825396825398,
+            "y": 0.42769230769230765,
+            "uniqueID": 167606,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/847527Rectangle"
+                },
+                {
+                    "name": "height",
+                    "ioValue": -1000
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.3029100529100529,
+            "y": 0.4061538461538462,
+            "uniqueID": 917806,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/236062Difference"
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.16865079365079363,
+            "y": 0.556923076923077,
+            "uniqueID": 548293,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/847527Rectangle"
+                },
+                {
+                    "name": "height",
+                    "ioValue": -140
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.06944444444444445,
+            "y": 0.5907692307692308,
+            "uniqueID": 847527,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 1500
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 1500
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.2619047619047619,
+            "y": 0.5507692307692308,
+            "uniqueID": 236062,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "source/106159/548293Extrude"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "source/106159/501606GitHubMolecule"
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5383597883597884,
+            "y": 0.31076923076923074,
             "uniqueID": 240944,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "source/106159/180221GitHubMolecule"
+                    "ioValue": "source/106159/151076GitHubMolecule"
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 37.5
+                    "ioValue": 37
                 },
                 {
                     "name": "yDist",
@@ -65,8 +214,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Rotational Pattern",
-            "x": 0.4477513227513228,
-            "y": 0.6123076923076923,
+            "x": 0.6666666666666666,
+            "y": 0.2646153846153846,
             "uniqueID": 773912,
             "projectID": "209940609",
             "ioValues": [
@@ -82,10 +231,164 @@
             "simplify": false
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Cyclone",
+            "x": 0.48611111111111116,
+            "y": 0.5938461538461538,
+            "uniqueID": 151076,
+            "projectID": "499301071",
+            "ioValues": [
+                {
+                    "name": "Dc",
+                    "ioValue": 41.5
+                },
+                {
+                    "name": "Hc",
+                    "ioValue": 20.8
+                },
+                {
+                    "name": "Bc",
+                    "ioValue": 10.4
+                },
+                {
+                    "name": "Sc",
+                    "ioValue": 25.9
+                },
+                {
+                    "name": "Di",
+                    "ioValue": 20.8
+                },
+                {
+                    "name": "Lc",
+                    "ioValue": 83
+                },
+                {
+                    "name": "Zc",
+                    "ioValue": 83
+                },
+                {
+                    "name": "DS",
+                    "ioValue": 10.4
+                }
+            ],
+            "simplify": false
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3412698412698413,
+            "y": 0.6923076923076923,
+            "uniqueID": 620604,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/814727Difference"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 15
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20568783068783067,
+            "y": 0.7599999999999999,
+            "uniqueID": 931320,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 81.5
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.2757936507936508,
+            "y": 0.7938461538461539,
+            "uniqueID": 814727,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "source/106159/931320Circle"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "source/106159/539854Circle"
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.1693121693121693,
+            "y": 0.8861538461538461,
+            "uniqueID": 539854,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 85
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6871693121693122,
+            "y": 0.6307692307692307,
+            "uniqueID": 194445,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/773912GitHubMolecule"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.5813492063492063,
-            "y": 0.796923076923077,
+            "x": 0.38227513227513227,
+            "y": 0.8553846153846153,
+            "uniqueID": 594641,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/106159/620604Extrude"
+                }
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9014550264550264,
+            "y": 0.2646153846153846,
+            "uniqueID": 691536,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "source/106159/773912GitHubMolecule"
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.8227513227513227,
+            "y": 0.6307692307692307,
             "uniqueID": 409156,
             "ioValues": [
                 {
@@ -95,26 +398,83 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9867724867724867,
-            "y": 0.5,
-            "uniqueID": 691536,
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.7268518518518519,
+            "y": 0.7692307692307692,
+            "uniqueID": 263953,
             "ioValues": [
                 {
-                    "name": "number or geometry",
-                    "ioValue": "source/106159/773912GitHubMolecule"
+                    "name": "Input1",
+                    "ioValue": "source/106159/194445Move"
                 }
-            ]
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1];\n\n\nreturn Input1.section().outline();"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "Geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 501606,
+            "ap2ID": 236062
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 501606,
+            "ap2ID": 365824
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 365824,
+            "ap2ID": 589752
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 721483,
+            "ap2ID": 365824
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 180221,
-            "ap2ID": 240944
+            "ap1ID": 167606,
+            "ap2ID": 721483
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 548293,
+            "ap2ID": 236062
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 847527,
+            "ap2ID": 548293
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 847527,
+            "ap2ID": 167606
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 236062,
+            "ap2ID": 917806
         },
         {
             "ap1Name": "geometry",
@@ -136,6 +496,55 @@
             "ap2Primary": false,
             "ap1ID": 773912,
             "ap2ID": 409156
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 773912,
+            "ap2ID": 194445
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 151076,
+            "ap2ID": 240944
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 620604,
+            "ap2ID": 594641
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 931320,
+            "ap2ID": 814727
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 814727,
+            "ap2ID": 620604
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 539854,
+            "ap2ID": 814727
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 194445,
+            "ap2ID": 263953
         }
     ],
     "fileTypeVersion": 1,
