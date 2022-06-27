@@ -1518,6 +1518,31 @@
                     ]
                 },
                 {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.1898148148148148,
+                    "y": 0.796923076923077,
+                    "uniqueID": 592724,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/182730/540954GitHubMolecule"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Stl",
                     "name": "Stl",
                     "x": 0.7843915343915343,
@@ -1533,8 +1558,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6838624338624338,
-                    "y": 0.5353846153846153,
+                    "x": 0.6779100529100529,
+                    "y": 0.5507692307692308,
                     "uniqueID": 202912,
                     "ioValues": [
                         {
@@ -1554,6 +1579,25 @@
                             "ioValue": "source/106159/182730/168518Move"
                         }
                     ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Rotational Pattern",
+                    "x": 0.2810846560846561,
+                    "y": 0.8461538461538461,
+                    "uniqueID": 574005,
+                    "projectID": "209940609",
+                    "ioValues": [
+                        {
+                            "name": "Angle",
+                            "ioValue": 24
+                        },
+                        {
+                            "name": "Number",
+                            "ioValue": 4
+                        }
+                    ],
+                    "simplify": false
                 },
                 {
                     "atomType": "Rotate",
@@ -1621,8 +1665,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7533068783068784,
-                    "y": 0.84,
+                    "x": 0.7546296296296297,
+                    "y": 0.8123076923076924,
                     "uniqueID": 498151,
                     "ioValues": [
                         {
@@ -1679,6 +1723,13 @@
                     "ap2Primary": true,
                     "ap1ID": 540954,
                     "ap2ID": 471016
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 540954,
+                    "ap2ID": 592724
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1742,6 +1793,13 @@
                     "ap2Primary": false,
                     "ap1ID": 329717,
                     "ap2ID": 202912
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 592724,
+                    "ap2ID": 574005
                 },
                 {
                     "ap1Name": "geometry",
