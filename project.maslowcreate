@@ -2300,7 +2300,12 @@
                     "x": 0.9867724867724867,
                     "y": 0.5,
                     "uniqueID": 789062,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/106159/393144/902738Assembly"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
