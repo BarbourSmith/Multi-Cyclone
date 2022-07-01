@@ -3220,6 +3220,19 @@
                     ]
                 },
                 {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 0.867063492063492,
+                    "y": 0.3323076923076923,
+                    "uniqueID": 698516,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/393144/144788Assembly"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Lid",
                     "x": 0.5998677248677249,
@@ -3969,6 +3982,19 @@
                             "unitsIndex": 0
                         },
                         {
+                            "atomType": "Stl",
+                            "name": "Stl",
+                            "x": 0.7625661375661376,
+                            "y": 0.3046153846153846,
+                            "uniqueID": 175430,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/106159/393144/142760/723807Assembly"
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Input",
                             "name": "Bolt attacher",
                             "x": 0.013333333333333334,
@@ -4093,6 +4119,13 @@
                             "ap2Primary": true,
                             "ap1ID": 723807,
                             "ap2ID": 452378
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 723807,
+                            "ap2ID": 175430
                         },
                         {
                             "ap1Name": "Geometry",
@@ -4295,6 +4328,13 @@
                     "ap2Primary": false,
                     "ap1ID": 144788,
                     "ap2ID": 902738
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 144788,
+                    "ap2ID": 698516
                 },
                 {
                     "ap1Name": "number or geometry",
