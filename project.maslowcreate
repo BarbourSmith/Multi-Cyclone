@@ -2836,6 +2836,25 @@
                     "simplify": false
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Linear Pattern",
+                    "x": 0.33465608465608465,
+                    "y": 0.4707692307692308,
+                    "uniqueID": 128233,
+                    "projectID": "304166099",
+                    "ioValues": [
+                        {
+                            "name": "Spacing",
+                            "ioValue": 25.5
+                        },
+                        {
+                            "name": "Number",
+                            "ioValue": 4
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.27314814814814814,
@@ -2859,25 +2878,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Linear Pattern",
-                    "x": 0.35383597883597884,
-                    "y": 0.5692307692307692,
-                    "uniqueID": 128233,
-                    "projectID": "304166099",
-                    "ioValues": [
-                        {
-                            "name": "Spacing",
-                            "ioValue": 25.5
-                        },
-                        {
-                            "name": "Number",
-                            "ioValue": 4
-                        }
-                    ],
-                    "simplify": false
                 },
                 {
                     "atomType": "Rotate",
@@ -2918,6 +2918,39 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": "source/106159/182730/128233GitHubMolecule"
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": "source/106159/182730/336011Move"
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": "source/106159/182730/927798Move"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3419312169312169,
+                    "y": 0.6461538461538461,
+                    "uniqueID": 921144,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/182730/128233GitHubMolecule"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 25.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -2947,15 +2980,32 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7619047619047619,
+                    "y": 0.21230769230769234,
+                    "uniqueID": 841544,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": "source/106159/182730/172009Move"
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": "source/106159/182730/742294GitHubMolecule"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.42724867724867727,
-                    "y": 0.6646153846153846,
-                    "uniqueID": 921144,
+                    "x": 0.40542328042328046,
+                    "y": 0.7107692307692308,
+                    "uniqueID": 336011,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "source/106159/182730/128233GitHubMolecule"
+                            "ioValue": "source/106159/182730/921144Move"
                         },
                         {
                             "name": "xDist",
@@ -2972,19 +3022,27 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.7619047619047619,
-                    "y": 0.21230769230769234,
-                    "uniqueID": 841544,
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4953703703703704,
+                    "y": 0.7076923076923076,
+                    "uniqueID": 927798,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
-                            "ioValue": "source/106159/182730/172009Move"
+                            "name": "geometry",
+                            "ioValue": "source/106159/182730/336011Move"
                         },
                         {
-                            "name": "3D shape 2",
-                            "ioValue": "source/106159/182730/742294GitHubMolecule"
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 25.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -3138,13 +3196,6 @@
                     "ap2ID": 841544
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap2Primary": false,
-                    "ap1ID": 471016,
-                    "ap2ID": 128233
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -3157,6 +3208,13 @@
                     "ap2Primary": false,
                     "ap1ID": 128233,
                     "ap2ID": 593617
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 471016,
+                    "ap2ID": 128233
                 },
                 {
                     "ap1Name": "geometry",
@@ -3176,15 +3234,22 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
-                    "ap1ID": 172009,
-                    "ap2ID": 841544
+                    "ap1ID": 921144,
+                    "ap2ID": 593617
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 921144,
+                    "ap2ID": 336011
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
-                    "ap1ID": 921144,
-                    "ap2ID": 593617
+                    "ap1ID": 172009,
+                    "ap2ID": 841544
                 },
                 {
                     "ap1Name": "geometry",
@@ -3199,6 +3264,27 @@
                     "ap2Primary": false,
                     "ap1ID": 841544,
                     "ap2ID": 298793
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 336011,
+                    "ap2ID": 927798
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 336011,
+                    "ap2ID": 593617
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 927798,
+                    "ap2ID": 593617
                 },
                 {
                     "ap1Name": "geometry",
