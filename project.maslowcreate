@@ -2727,57 +2727,19 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9808201058201059,
-            "y": 0.24,
-            "uniqueID": 691536,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "source/106159/773912GitHubMolecule"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "16 Cyclones",
-            "x": 0.4854497354497354,
-            "y": 0.8861538461538461,
+            "x": 0.48280423280423285,
+            "y": 0.8769230769230769,
             "uniqueID": 182730,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.2804232804232804,
-                    "y": 0.24,
-                    "uniqueID": 515621,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/106159/182730/540954GitHubMolecule"
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 45
-                        }
-                    ]
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Cyclone",
-                    "x": 0.14484126984126983,
-                    "y": 0.36615384615384616,
+                    "x": 0.09854497354497355,
+                    "y": 0.24,
                     "uniqueID": 540954,
                     "projectID": "499301071",
                     "ioValues": [
@@ -2815,6 +2777,31 @@
                         }
                     ],
                     "simplify": false
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.2804232804232804,
+                    "y": 0.24,
+                    "uniqueID": 515621,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/182730/540954GitHubMolecule"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 45
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -2980,6 +2967,31 @@
                     ]
                 },
                 {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.19642857142857142,
+                    "y": 0.7415384615384615,
+                    "uniqueID": 592724,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/182730/540954GitHubMolecule"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 60
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.7619047619047619,
@@ -3062,38 +3074,13 @@
                 {
                     "atomType": "Stl",
                     "name": "Stl",
-                    "x": 0.5992063492063492,
-                    "y": 0.6738461538461538,
+                    "x": 0.5939153439153438,
+                    "y": 0.6676923076923077,
                     "uniqueID": 469393,
                     "ioValues": [
                         {
                             "name": "geometry",
                             "ioValue": "source/106159/182730/593617Assembly"
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.18915343915343916,
-                    "y": 0.92,
-                    "uniqueID": 592724,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/106159/182730/540954GitHubMolecule"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 60
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
                         }
                     ]
                 },
@@ -3154,13 +3141,6 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap2Primary": false,
-                    "ap1ID": 515621,
-                    "ap2ID": 742294
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -3180,6 +3160,13 @@
                     "ap2Primary": true,
                     "ap1ID": 540954,
                     "ap2ID": 592724
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 515621,
+                    "ap2ID": 742294
                 },
                 {
                     "ap1Name": "Geometry",
@@ -3253,6 +3240,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 592724,
+                    "ap2ID": 574005
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": false,
                     "ap1ID": 841544,
@@ -3287,13 +3281,6 @@
                     "ap2ID": 593617
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap2Primary": false,
-                    "ap1ID": 592724,
-                    "ap2ID": 574005
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": false,
@@ -3304,6 +3291,19 @@
             "fileTypeVersion": 1,
             "simplify": false,
             "unitsIndex": 0
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9808201058201059,
+            "y": 0.24,
+            "uniqueID": 691536,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "source/106159/773912GitHubMolecule"
+                }
+            ]
         },
         {
             "atomType": "Molecule",
